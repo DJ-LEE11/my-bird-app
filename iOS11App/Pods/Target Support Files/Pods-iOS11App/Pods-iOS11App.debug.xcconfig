@@ -1,0 +1,13 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../shared/build/cocoapods/framework" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/PassFastLoginKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduLoginSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/MMLNative" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/jpeg" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/modelcrypt" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/png" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/ssdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FaceBaseSSDKLib" -l"SSDKLib" -l"c++" -l"libjpeg" -l"libpng" -l"mml_framework_ios" -l"modelcrypt" -l"paddle_api_light_bundled" -l"webp" -framework "CoreLocation" -framework "CoreTelephony" -framework "IDLFaceSDK" -framework "MobileCoreServices" -framework "PASSBiometricsFaceKit" -framework "PassEnhancedKit" -framework "PassFastLoginKit" -framework "PassFoundationKit" -framework "PassportKit" -framework "SAuthLoginSDKLib" -framework "SystemConfiguration" -framework "WebKit" -framework "opencv2" -framework "shared"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

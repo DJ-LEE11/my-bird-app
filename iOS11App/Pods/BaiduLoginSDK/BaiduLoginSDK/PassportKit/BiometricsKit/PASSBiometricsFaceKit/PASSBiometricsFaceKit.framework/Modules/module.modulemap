@@ -1,0 +1,6 @@
+framework module PASSBiometricsFaceKit {
+  umbrella header "PASSBiometricsFaceKit.h"
+
+  export *
+  module * { export * }
+}

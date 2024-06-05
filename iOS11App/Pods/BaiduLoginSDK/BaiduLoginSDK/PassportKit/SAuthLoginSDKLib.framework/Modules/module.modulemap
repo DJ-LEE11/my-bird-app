@@ -1,0 +1,6 @@
+framework module SAuthLoginSDKLib_Passport {
+  umbrella header "SAuthLoginSDKLib_Passport.h"
+
+  export *
+  module * { export * }
+}

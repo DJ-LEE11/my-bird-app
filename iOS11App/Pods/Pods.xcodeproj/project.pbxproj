@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0B5FC219365D7B9D6990CE8F00DFBF18 /* BaiduLoginSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 92FEC207CDB87749793BFD82557A18E6 /* Build configuration list for PBXAggregateTarget "BaiduLoginSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BaiduLoginSDK;
+		};
+		8777C9F6889E59EFFD631D80AEE9048B /* shared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8349D8E2EC974421A14EF8ABFF6AD6DC /* Build configuration list for PBXAggregateTarget "shared" */;
+			buildPhases = (
+				BEA8885189D408D600647BDC228A6A20 /* [CP-User] Build shared */,
+			);
+			dependencies = (
+			);
+			name = shared;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1CFBD8BACAA45387B575768F85BB6E45 /* Pods-iOS11App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDF4123AC03B2DF8234E3543C90BA3D /* Pods-iOS11App-dummy.m */; };
+		AF26FA415555CD706EA890E2C80CD376 /* Pods-iOS11App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F178AE215A2FB6B3A80E25C747DB4 /* Pods-iOS11App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB72B0D8A50BF8E0BA4DEE70E0BA06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E7BC63512534F8A61A03D8CEF1A569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5FC219365D7B9D6990CE8F00DFBF18;
+			remoteInfo = BaiduLoginSDK;
+		};
+		CDBA02FD4DC64BDA5F4161A5CB4E85BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8777C9F6889E59EFFD631D80AEE9048B;
+			remoteInfo = shared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03930E0F6BCC8B6B95931B2B1A9969E9 /* libpaddle_api_light_bundled.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpaddle_api_light_bundled.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/libpaddle_api_light_bundled.a; sourceTree = "<group>"; };
+		03B8BE2607987D145A0D76D72E4A209F /* PassportKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PassportKit.bundle; path = BaiduLoginSDK/PassportKit/PassportKit.framework/PassportKit.bundle; sourceTree = "<group>"; };
+		0A00C32D592DDC5C9FDB7288958FC427 /* PASSFastLoginDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSFastLoginDefine.h; path = BaiduLoginSDK/PassportKit/PassFastLoginKit/PassFastLoginKit.framework/Headers/PASSFastLoginDefine.h; sourceTree = "<group>"; };
+		0A8CF3AD63E083B0D93C9C0C148ABC5D /* PASSFastLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSFastLoginViewController.h; path = BaiduLoginSDK/PassportKit/PassFastLoginKit/PassFastLoginKit.framework/Headers/PASSFastLoginViewController.h; sourceTree = "<group>"; };
+		0D725547B7E6DE95054CE5C66F91DC9E /* PASSWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSWebView.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSWebView.h; sourceTree = "<group>"; };
+		0E5841708CFDE028330C9140CED94DDB /* shared.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shared.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0EC154B9334E99DD6F24718122B7690B /* BDFaceQualityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDFaceQualityUtil.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/BDFaceQualityUtil.h; sourceTree = "<group>"; };
+		113F94FECAD82F255DC00237AB26AE4E /* paddle_lite_factory_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_lite_factory_helper.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_lite_factory_helper.h; sourceTree = "<group>"; };
+		11E04BFCDB4AD390093F363CE757D100 /* shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared.release.xcconfig; sourceTree = "<group>"; };
+		13426C82D5C29CF80553821E1CD0D06B /* videoio_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videoio_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/videoio/videoio_c.h; sourceTree = "<group>"; };
+		18A438DD1037D9425B141D68C3B3B299 /* SAPIOAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIOAuthInfo.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIOAuthInfo.h; sourceTree = "<group>"; };
+		1960027D342F713CA139B769E231E04D /* cv_cpu_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cv_cpu_helper.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h; sourceTree = "<group>"; };
+		1C3C88A86169568179ED932E04682422 /* Pods-iOS11App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS11App.modulemap"; sourceTree = "<group>"; };
+		1F25F1D6F99E942D273F6FDA5574F188 /* SSFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSFaceSDK.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK/Headers/SSFaceSDK.h; sourceTree = "<group>"; };
+		1F5AA17E85092244ACA6A4C7BA2EC63A /* PassFastLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassFastLoginKit.framework; path = BaiduLoginSDK/PassportKit/PassFastLoginKit/PassFastLoginKit.framework; sourceTree = "<group>"; };
+		207A107D6D67D0470B6AC138F2FC72D5 /* IDLFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLFaceSDK.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/IDLFaceSDK.h; sourceTree = "<group>"; };
+		210F190D2271134038406F819416C5D0 /* UIColor+PASSConvenientAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+PASSConvenientAddition.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/UIColor+PASSConvenientAddition.h"; sourceTree = "<group>"; };
+		23B44A17662CFE406F71D5537FD89D0E /* calib3d_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calib3d_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h; sourceTree = "<group>"; };
+		24491DBE05E33E506E259AF45D143685 /* libmodelcrypt.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmodelcrypt.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/modelcrypt/libmodelcrypt.a; sourceTree = "<group>"; };
+		26D380EA28902F5F34A9AB87E08984C1 /* libFaceBaseSSDKLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFaceBaseSSDKLib.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK/libFaceBaseSSDKLib.a; sourceTree = "<group>"; };
+		27ECC1C8D1A90B66BD6C97740E71653B /* NSURL+SAPIURLAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SAPIURLAdditions.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/NSURL+SAPIURLAdditions.h"; sourceTree = "<group>"; };
+		296F29F66E4F62BC8096964988E199B4 /* SAPIHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIHTTPClient.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/SAPIHTTPClient.h; sourceTree = "<group>"; };
+		2D877F4E89674E0D97A6404A139B54AE /* IDLFaceDetectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLFaceDetectionManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/IDLFaceDetectionManager.h; sourceTree = "<group>"; };
+		3032EB72CB7A8A634F76607737392D5D /* PASSBiometricsFaceKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PASSBiometricsFaceKit.bundle; path = BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit/PASSBiometricsFaceKit.framework/PASSBiometricsFaceKit.bundle; sourceTree = "<group>"; };
+		31D65FA1F1E11D0416CA81D8114CCEDF /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/types.h; sourceTree = "<group>"; };
+		33238658C2A61284DBFCBBF2D2877A09 /* wbaeslib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wbaeslib.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/wbaeslib.h; sourceTree = "<group>"; };
+		3350CBEE57C886522F8FEFB077486164 /* cv_cpu_dispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cv_cpu_dispatch.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h; sourceTree = "<group>"; };
+		343B8B86E170688E59204F8AC4E1FBB7 /* SAPIMainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIMainManager.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIMainManager.h; sourceTree = "<group>"; };
+		3712FCBC7697A4CFFB9AC37A7FDF3991 /* model_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = model_crypt.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/modelcrypt/include/model_crypt.h; sourceTree = "<group>"; };
+		398AE07369FBD143CCBA1E4E63947B85 /* PASSFastLoginKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSFastLoginKit.h; path = BaiduLoginSDK/PassportKit/PassFastLoginKit/PassFastLoginKit.framework/Headers/PASSFastLoginKit.h; sourceTree = "<group>"; };
+		3C5C4EF016F2823A29EA1600C696944D /* PassEnhancedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassEnhancedKit.framework; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework; sourceTree = "<group>"; };
+		3E08715BD8C1865E92768ECA582B14C8 /* Pods-iOS11App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS11App-Info.plist"; sourceTree = "<group>"; };
+		3E93692FBE427E181A8475CF83965BA2 /* PASSBioSDKMainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSBioSDKMainManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit/PASSBiometricsFaceKit.framework/Headers/PASSBioSDKMainManager.h; sourceTree = "<group>"; };
+		40F87EA4129A10FE6977079D23294B11 /* NSString+SAPIStringAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SAPIStringAdditions.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/NSString+SAPIStringAdditions.h"; sourceTree = "<group>"; };
+		427F52B842F0B6C20863C24FAD2D2522 /* PASSOpenBdussModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSOpenBdussModel.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSOpenBdussModel.h; sourceTree = "<group>"; };
+		444A07A10CFCBEAA39C75225A19A62E6 /* model_decrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = model_decrypt.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/modelcrypt/include/model_decrypt.h; sourceTree = "<group>"; };
+		45DD3235AC959EC9C9E9E59ADAE13735 /* SSFaceDetectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSFaceDetectionManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK/Headers/SSFaceDetectionManager.h; sourceTree = "<group>"; };
+		48DB652940E7B57D36F9FAD0B7F40ED2 /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/imgproc/types_c.h; sourceTree = "<group>"; };
+		49E57D895D22B3742D6DCAAD6992AD9D /* Pods-iOS11App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOS11App"; path = Pods_iOS11App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A21AE442B204CDCFF2187470A93BA83 /* BaiduLoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduLoginSDK.h; path = BaiduLoginSDK/BaiduLoginSDK.h; sourceTree = "<group>"; };
+		4A50454C178122BBDBDCA275B507CB3B /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/types_c.h; sourceTree = "<group>"; };
+		4B2922FD5CDEA18794C19D90C560F9F0 /* PASSControllerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSControllerFactory.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSControllerFactory.h; sourceTree = "<group>"; };
+		4D00E28EADB72BCBDB1393C6D60F3397 /* Pods-iOS11App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS11App-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DEA3FE3825C5EE2054E70D219DD12F8 /* libmml_framework_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmml_framework_ios.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/MMLNative/libmml_framework_ios.a; sourceTree = "<group>"; };
+		5059367560E14F117A9FD2D50134BECA /* com.baidu.idl.face.model.faceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = com.baidu.idl.face.model.faceSDK.bundle; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/com.baidu.idl.face.model.faceSDK.bundle; sourceTree = "<group>"; };
+		519516BCB7425BF68DE54DBB74BA904B /* PASSBindWidgetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSBindWidgetViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSBindWidgetViewController.h; sourceTree = "<group>"; };
+		5371D6BA2AF3A7506082E17948F62CDB /* paddle_use_ops.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_use_ops.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_use_ops.h; sourceTree = "<group>"; };
+		55AF52298B667A04C6FC7767AF847B58 /* SAPILogService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPILogService.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPILogService.h; sourceTree = "<group>"; };
+		56972584D959FA4CE957B37851FBA195 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = build/cocoapods/framework/shared.framework; sourceTree = "<group>"; };
+		589B6A4FC53895CDF043F2EBA03C130F /* PASSCertInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSCertInfo.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSCertInfo.h; sourceTree = "<group>"; };
+		5925673AC1B11C3BA3E453F50DD71BF6 /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/decode.h; sourceTree = "<group>"; };
+		59E96A20A0F431ABD472201D756BCC5D /* SAPILoginService+PASSEnhancedLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAPILoginService+PASSEnhancedLogin.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPILoginService+PASSEnhancedLogin.h"; sourceTree = "<group>"; };
+		5A5BC6286267FA9913B5D9D9AA3B673E /* PASSWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSWebViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSWebViewController.h; sourceTree = "<group>"; };
+		5D3FEFA4B636DD1A2DBE948594A8D309 /* PASSOneKeySDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSOneKeySDKManager.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSOneKeySDKManager.h; sourceTree = "<group>"; };
+		5EB0F177EF353B3DD9A258FBD8007AF3 /* paddle_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_api.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_api.h; sourceTree = "<group>"; };
+		608D1617F434F499A31BC32EFBD06A39 /* IDLFaceColorfulManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLFaceColorfulManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/IDLFaceColorfulManager.h; sourceTree = "<group>"; };
+		60E8C60738769C7D0C9552AF2DC793F2 /* PASSGuestNormalizeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSGuestNormalizeViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSGuestNormalizeViewController.h; sourceTree = "<group>"; };
+		61E58AA0D5155DAB4440F73B1DDE0DC5 /* paddle_place.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_place.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_place.h; sourceTree = "<group>"; };
+		648F811EEF86283077D7082A050FC0ED /* tracking_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tracking_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/video/tracking_c.h; sourceTree = "<group>"; };
+		65A3925E3784AA20CEF6EB9D941FCED7 /* NSDictionary+SAPIDictionaryAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAPIDictionaryAddition.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/NSDictionary+SAPIDictionaryAddition.h"; sourceTree = "<group>"; };
+		68413B08BEF7C845AAA0002AE8AFF54A /* SAuthLoginSDKLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAuthLoginSDKLib.framework; path = BaiduLoginSDK/PassportKit/SAuthLoginSDKLib.framework; sourceTree = "<group>"; };
+		685F178AE215A2FB6B3A80E25C747DB4 /* Pods-iOS11App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS11App-umbrella.h"; sourceTree = "<group>"; };
+		6BE2F31EB3B2DCC690D3906C098FD09E /* core_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/core_c.h; sourceTree = "<group>"; };
+		6C91D90804438D0D582028BA74757571 /* BDFaceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDFaceUtil.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/BDFaceUtil.h; sourceTree = "<group>"; };
+		6CB8519A0DC7FC4E08E40EFE1C14BB4E /* PASSBiometricsFaceKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSBiometricsFaceKit.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit/PASSBiometricsFaceKit.framework/Headers/PASSBiometricsFaceKit.h; sourceTree = "<group>"; };
+		6D348DECF7605032DF6C60C71426817E /* PASSBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSBaseViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSBaseViewController.h; sourceTree = "<group>"; };
+		6D8790C3C92736B92BEE908C1E816B45 /* FaceSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceSDKManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/FaceSDKManager.h; sourceTree = "<group>"; };
+		6E837D2FD62C91BA5D22B81AA40CDAFF /* paddle_use_passes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_use_passes.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_use_passes.h; sourceTree = "<group>"; };
+		6EB81C7D376D5F0CBA2444F4CF0BB610 /* liblibjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibjpeg.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/jpeg/liblibjpeg.a; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A76730A2CFAF63C18C494A61D7894AF /* SAPIMainWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIMainWebView.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIMainWebView.h; sourceTree = "<group>"; };
+		7A77EBB4EA835099316BAB288AD78677 /* paddle_lite_image_preprocess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_lite_image_preprocess.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/MMLNative/include/paddle_lite_image_preprocess.h; sourceTree = "<group>"; };
+		7B294DF7AF206D4692B52652477D3163 /* SAPIWebView+SAPIConstantAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAPIWebView+SAPIConstantAddition.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIWebView+SAPIConstantAddition.h"; sourceTree = "<group>"; };
+		7B451441078F399EDC9F808C2EAB280E /* PASSAccountSecurityCenterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountSecurityCenterViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSAccountSecurityCenterViewController.h; sourceTree = "<group>"; };
+		7B5F5CD961C5D6B32FBAFF0F4BD89747 /* PASSAccountDetectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountDetectViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSAccountDetectViewController.h; sourceTree = "<group>"; };
+		7C302E015CE9442B833E390AF7A715F6 /* SAPIWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIWebView.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIWebView.h; sourceTree = "<group>"; };
+		7C4E244E4ACC4F618D0684F22609336E /* SAPIReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIReachability.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/SAPIReachability.h; sourceTree = "<group>"; };
+		805C725DE5709931DAE809400902AD30 /* PASSFusionUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSFusionUserInfo.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSFusionUserInfo.h; sourceTree = "<group>"; };
+		8451F84CA5C82EB6765F07C44334D67B /* SAuthLoginSDKLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAuthLoginSDKLib.h; path = BaiduLoginSDK/PassportKit/SAuthLoginSDKLib.framework/Headers/SAuthLoginSDKLib.h; sourceTree = "<group>"; };
+		8A392BDD9F19C9050D7C83DD7483CC4D /* PassFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassFoundationKit.framework; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework; sourceTree = "<group>"; };
+		91983509B39ADB46FE775AE21FBC5FDE /* BaiduLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduLoginSDK.release.xcconfig; sourceTree = "<group>"; };
+		92F9C058615A716F9C5712B5259C5FC4 /* imgproc_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgproc_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h; sourceTree = "<group>"; };
+		9391A7CD6809BFD8CF01E0F5BE4AB4CC /* paddle_image_preprocess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_image_preprocess.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_image_preprocess.h; sourceTree = "<group>"; };
+		96691DFBBEE3F1136AE90B84FB8CE972 /* BaiduLoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduLoginSDK.debug.xcconfig; sourceTree = "<group>"; };
+		9692C16A8D6222D480108E538C53B459 /* cap_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cap_ios.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/videoio/cap_ios.h; sourceTree = "<group>"; };
+		98497FF4C6FD5A1DF57262FCB1665471 /* SAPILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPILogger.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/SAPILogger.h; sourceTree = "<group>"; };
+		986E364D79FA35AA5177F0331BAF2FF5 /* SAPILoginModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPILoginModel.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPILoginModel.h; sourceTree = "<group>"; };
+		986F6035A45CEE3A282BE8DA6F0193AB /* PassportKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassportKit.framework; path = BaiduLoginSDK/PassportKit/PassportKit.framework; sourceTree = "<group>"; };
+		9CFAF568E2090D2F3C15E07C6C41F315 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/hal/interface.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A274E6A6CBC2D18A07155C5D475DE0BD /* Pods-iOS11App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS11App.release.xcconfig"; sourceTree = "<group>"; };
+		A51AA694D9CD5303CFDE1DD7F567CFCC /* idl-key.face-ios */ = {isa = PBXFileReference; includeInIndex = 1; name = "idl-key.face-ios"; path = "BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/idl-key.face-ios"; sourceTree = "<group>"; };
+		A86DDB9013A24596644F6BD43B4A4D91 /* Pods-iOS11App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS11App-resources.sh"; sourceTree = "<group>"; };
+		AA25BE894B49BF056A0782F82426B67E /* PASSAccountRecordViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountRecordViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSAccountRecordViewController.h; sourceTree = "<group>"; };
+		AC2433ED4EF6C7C8D91067B03E76E5E2 /* Pods-iOS11App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS11App.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBDB92AA8DE7FB30755AC5E81193FD1 /* PASSBiometricsFaceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PASSBiometricsFaceKit.framework; path = BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit/PASSBiometricsFaceKit.framework; sourceTree = "<group>"; };
+		AD270835BFF74AA4CCBAE40957AF8E00 /* mux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mux_types.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/mux_types.h; sourceTree = "<group>"; };
+		B21217417244E7CF9E4C4B1A7CBFFADA /* UINavigationController+PASSConvenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PASSConvenient.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/UINavigationController+PASSConvenient.h"; sourceTree = "<group>"; };
+		B2583A7879F957DC684E5DA4CC952899 /* mml_inference_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mml_inference_api.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/MMLNative/include/mml_inference_api.h; sourceTree = "<group>"; };
+		B3BA9594B8C36D7A8FCABFFC3DC7CC50 /* PASSMethodCallTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSMethodCallTransfer.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSMethodCallTransfer.h; sourceTree = "<group>"; };
+		B7A49D3D37C31A3566B5DD3A50D14B4F /* cvdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvdef.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/core/cvdef.h; sourceTree = "<group>"; };
+		B7D9947EB30F951A7600C377368D9B98 /* SSWbaesLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSWbaesLib.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/SSWbaesLib.h; sourceTree = "<group>"; };
+		B97A00374DF016137AB1E70A755594D7 /* cvconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvconfig.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/cvconfig.h; sourceTree = "<group>"; };
+		BBAA178BDBA3CDCDF16B9443CB3701C7 /* PassEnhancedKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PassEnhancedKit.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PassEnhancedKit.h; sourceTree = "<group>"; };
+		BBDF4123AC03B2DF8234E3543C90BA3D /* Pods-iOS11App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS11App-dummy.m"; sourceTree = "<group>"; };
+		BC660125AA1CB8DA3B28F25DE8ACF303 /* SAPILoginService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPILoginService.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPILoginService.h; sourceTree = "<group>"; };
+		BCC570A98FC899AEFFF2C1AD3A306CA5 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h; sourceTree = "<group>"; };
+		BCD4862EEA3DF644C2A587F4E0609C62 /* WKUserContentController+SAPIH5LoginSyncAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKUserContentController+SAPIH5LoginSyncAddition.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/WKUserContentController+SAPIH5LoginSyncAddition.h"; sourceTree = "<group>"; };
+		BEA283579B50320B52A47D90E840DC70 /* UIImage+PASSUtilityAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PASSUtilityAddition.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/UIImage+PASSUtilityAddition.h"; sourceTree = "<group>"; };
+		BF2F7EE83B76CE953C65A73DC3A1A323 /* PASSAccountCenterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountCenterViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSAccountCenterViewController.h; sourceTree = "<group>"; };
+		BF6524E18F7DE099E4E7FE33781980B4 /* PassportKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PassportKit.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PassportKit.h; sourceTree = "<group>"; };
+		C232446B42A7CC515CFA3D4C9D8639AB /* format_constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format_constants.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/format_constants.h; sourceTree = "<group>"; };
+		C2EDE620934B4BAB1C1AD2164DFBE516 /* SSFaceBaseLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSFaceBaseLib.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK/Headers/SSFaceBaseLib.h; sourceTree = "<group>"; };
+		C56DECB6FD86B0AB96C1DDBE0400AD60 /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/imgcodecs/ios.h; sourceTree = "<group>"; };
+		C6C2DF2EF85AEE3CF3D2114BCD4934A8 /* PASSThirdLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSThirdLoginViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSThirdLoginViewController.h; sourceTree = "<group>"; };
+		C819D3BB7E3AE92FBFF7C1CD0F26215E /* SAPILoginService+PASSFastLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAPILoginService+PASSFastLogin.h"; path = "BaiduLoginSDK/PassportKit/PassFastLoginKit/PassFastLoginKit.framework/Headers/SAPILoginService+PASSFastLogin.h"; sourceTree = "<group>"; };
+		CAE51E299ABC9140C5087D6DF7D9297B /* PASSAccountSwitchViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountSwitchViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSAccountSwitchViewController.h; sourceTree = "<group>"; };
+		CC6C16A119A54DB866F0B23DCF76FE1C /* SAPIDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIDefine.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPIDefine.h; sourceTree = "<group>"; };
+		CD02145453929EC5B77D5E225B4A59E7 /* PASSFaceIDService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSFaceIDService.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSFaceIDService.h; sourceTree = "<group>"; };
+		CE46B1DC4319929209FC86C0D507A08E /* photo_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = photo_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/photo/photo_c.h; sourceTree = "<group>"; };
+		D0ECADEB2536C657C5F15F8FD8FB0182 /* PASSAccountDestroyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountDestroyViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSAccountDestroyViewController.h; sourceTree = "<group>"; };
+		D381108F3AEF8EFBDF0BC66BF0D9D9DD /* PASSLoginInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSLoginInputView.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSLoginInputView.h; sourceTree = "<group>"; };
+		D761E2EC3A8DD212C29781BB2A749D8A /* PassFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PassFoundationKit.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/PassFoundationKit.h; sourceTree = "<group>"; };
+		D8DA565545955B12064BAEB4913EC8ED /* PASSOpenURLHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSOpenURLHandler.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSOpenURLHandler.h; sourceTree = "<group>"; };
+		DB51B466E376B6A00BCA94073E2EFFE1 /* NSString+SAPIBase64Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SAPIBase64Additions.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/NSString+SAPIBase64Additions.h"; sourceTree = "<group>"; };
+		DCB23AA21B585DB6A17E49AB2FEDE1DA /* PASSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSRouter.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSRouter.h; sourceTree = "<group>"; };
+		DD1340887BEE2365BA85F35FD904EB5F /* PASSLoginConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSLoginConfig.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSLoginConfig.h; sourceTree = "<group>"; };
+		DDBEDCF70ABE064412161097231E8434 /* libSSDKLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSSDKLib.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/ssdk/libSSDKLib.a; sourceTree = "<group>"; };
+		DE1174F67391C81668D6B380DE64636C /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDLFaceSDK.framework; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework; sourceTree = "<group>"; };
+		DEDD1FEAE2C70B1A646EE9A5AC85F082 /* libwebp.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libwebp.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/libwebp.a; sourceTree = "<group>"; };
+		E00A29A1D7774ECB11D2E96B4BE25473 /* PASSAccountRealNameViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountRealNameViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSAccountRealNameViewController.h; sourceTree = "<group>"; };
+		E1BF5355EA1DC13D321FFBB68A9CB536 /* mux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mux.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/mux.h; sourceTree = "<group>"; };
+		E2A2CE6998636604459EC2837F4E8010 /* paddle_use_kernels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paddle_use_kernels.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite/include/paddle_use_kernels.h; sourceTree = "<group>"; };
+		E73CC1C20CD40E7434C7FA202EAC89E2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework; sourceTree = "<group>"; };
+		E7DFA4A0901A4C01BBC5377DCC6FFF4C /* shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared.debug.xcconfig; sourceTree = "<group>"; };
+		E93D7D17E404C50E7CE782D4DE5CE542 /* UIViewController+PASSConvenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PASSConvenient.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/UIViewController+PASSConvenient.h"; sourceTree = "<group>"; };
+		EBA3A4388B7DF6F806029D7342A7C049 /* imgcodecs_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgcodecs_c.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h; sourceTree = "<group>"; };
+		ED10DDFE92006F91270CBAF950C0606C /* Pods-iOS11App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS11App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFE1529FDF669477A5D2376CB6CA40DB /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h; sourceTree = "<group>"; };
+		F0423DD6F40EE5CC46C65B5F81426037 /* PASSDesignMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSDesignMacro.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/PASSDesignMacro.h; sourceTree = "<group>"; };
+		F0599B8B8217E0258106D171080F2C98 /* liblibpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibpng.a; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/png/liblibpng.a; sourceTree = "<group>"; };
+		F068F7AA1E1833336955E79EA43BDF73 /* PASSAccountWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSAccountWebViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSAccountWebViewController.h; sourceTree = "<group>"; };
+		F06E8C09CBB812D0300E18858B0B23C4 /* NSObject+PASSRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PASSRuntime.h"; path = "BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/NSObject+PASSRuntime.h"; sourceTree = "<group>"; };
+		F279ACBCBE1AB7DDFD3B474784D0BC03 /* PASSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSError.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSError.h; sourceTree = "<group>"; };
+		F2A637ADCF2DEEA80CFE9B190009B2BB /* compose-multiplatform.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = "compose-multiplatform.xml"; path = "src/commonMain/resources/compose-multiplatform.xml"; sourceTree = "<group>"; };
+		F71CEB0C7C328F7947D0C420F71D2AFB /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/encode.h; sourceTree = "<group>"; };
+		F795B859D4B18A109A2F848A1A315B8D /* SSDKLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDKLib.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/ssdk/Headers/SSDKLib.h; sourceTree = "<group>"; };
+		F8EA2F202A642FEC20F280A84F1C9C6A /* PASSOneKeyCheckResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSOneKeyCheckResult.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSOneKeyCheckResult.h; sourceTree = "<group>"; };
+		F8ECDEF2A5ACFD35CEE312C435BFEE33 /* FaceSSDKLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceSSDKLib.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK/Headers/FaceSSDKLib.h; sourceTree = "<group>"; };
+		F9842ACDA56877C6B72FE1DC38B24CBF /* SAPILoginService+PASSThirdLoginService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SAPILoginService+PASSThirdLoginService.h"; path = "BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/SAPILoginService+PASSThirdLoginService.h"; sourceTree = "<group>"; };
+		FA24B87DC13A7B669464B7CF10B497FF /* PASSModifyPasswordViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSModifyPasswordViewController.h; path = BaiduLoginSDK/PassportKit/PassEnhancedKit.framework/Headers/PASSModifyPasswordViewController.h; sourceTree = "<group>"; };
+		FA777EF4437B0CF564AB98B1F3E7E4E7 /* PASSLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSLoginViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSLoginViewController.h; sourceTree = "<group>"; };
+		FB9EC2188208287DEDE29819811AC4CA /* IDLFaceLivenessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLFaceLivenessManager.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/IDLFaceSDK.framework/Headers/IDLFaceLivenessManager.h; sourceTree = "<group>"; };
+		FD5FA2EE36933D6B1D666A264041286C /* demux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = demux.h; path = BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp/includes/demux.h; sourceTree = "<group>"; };
+		FD6C70591A170EAD05FEF5CB5018984A /* SAPIJSONUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPIJSONUtility.h; path = BaiduLoginSDK/PassportKit/PassFoundationKit.framework/Headers/SAPIJSONUtility.h; sourceTree = "<group>"; };
+		FE0758FB5545682BAEC3BE3A292C805F /* PASSViewControllerTerminator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSViewControllerTerminator.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSViewControllerTerminator.h; sourceTree = "<group>"; };
+		FEB81244F0BC80481A1B80105B401F26 /* PASSQRCodeLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PASSQRCodeLoginViewController.h; path = BaiduLoginSDK/PassportKit/PassportKit.framework/Headers/PASSQRCodeLoginViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3663E5E2C8182353ED0E6680F008C38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB72B0D8A50BF8E0BA4DEE70E0BA06C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7ECBE2A34D603B75466A0BD11AAD2A /* BaiduLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4A21AE442B204CDCFF2187470A93BA83 /* BaiduLoginSDK.h */,
+				0EC154B9334E99DD6F24718122B7690B /* BDFaceQualityUtil.h */,
+				6C91D90804438D0D582028BA74757571 /* BDFaceUtil.h */,
+				23B44A17662CFE406F71D5537FD89D0E /* calib3d_c.h */,
+				9692C16A8D6222D480108E538C53B459 /* cap_ios.h */,
+				6BE2F31EB3B2DCC690D3906C098FD09E /* core_c.h */,
+				3350CBEE57C886522F8FEFB077486164 /* cv_cpu_dispatch.h */,
+				1960027D342F713CA139B769E231E04D /* cv_cpu_helper.h */,
+				B97A00374DF016137AB1E70A755594D7 /* cvconfig.h */,
+				B7A49D3D37C31A3566B5DD3A50D14B4F /* cvdef.h */,
+				5925673AC1B11C3BA3E453F50DD71BF6 /* decode.h */,
+				FD5FA2EE36933D6B1D666A264041286C /* demux.h */,
+				F71CEB0C7C328F7947D0C420F71D2AFB /* encode.h */,
+				6D8790C3C92736B92BEE908C1E816B45 /* FaceSDKManager.h */,
+				F8ECDEF2A5ACFD35CEE312C435BFEE33 /* FaceSSDKLib.h */,
+				C232446B42A7CC515CFA3D4C9D8639AB /* format_constants.h */,
+				608D1617F434F499A31BC32EFBD06A39 /* IDLFaceColorfulManager.h */,
+				2D877F4E89674E0D97A6404A139B54AE /* IDLFaceDetectionManager.h */,
+				FB9EC2188208287DEDE29819811AC4CA /* IDLFaceLivenessManager.h */,
+				207A107D6D67D0470B6AC138F2FC72D5 /* IDLFaceSDK.h */,
+				EBA3A4388B7DF6F806029D7342A7C049 /* imgcodecs_c.h */,
+				92F9C058615A716F9C5712B5259C5FC4 /* imgproc_c.h */,
+				9CFAF568E2090D2F3C15E07C6C41F315 /* interface.h */,
+				EFE1529FDF669477A5D2376CB6CA40DB /* interface.h */,
+				BCC570A98FC899AEFFF2C1AD3A306CA5 /* interface.h */,
+				C56DECB6FD86B0AB96C1DDBE0400AD60 /* ios.h */,
+				B2583A7879F957DC684E5DA4CC952899 /* mml_inference_api.h */,
+				3712FCBC7697A4CFFB9AC37A7FDF3991 /* model_crypt.h */,
+				444A07A10CFCBEAA39C75225A19A62E6 /* model_decrypt.h */,
+				E1BF5355EA1DC13D321FFBB68A9CB536 /* mux.h */,
+				AD270835BFF74AA4CCBAE40957AF8E00 /* mux_types.h */,
+				65A3925E3784AA20CEF6EB9D941FCED7 /* NSDictionary+SAPIDictionaryAddition.h */,
+				F06E8C09CBB812D0300E18858B0B23C4 /* NSObject+PASSRuntime.h */,
+				DB51B466E376B6A00BCA94073E2EFFE1 /* NSString+SAPIBase64Additions.h */,
+				40F87EA4129A10FE6977079D23294B11 /* NSString+SAPIStringAdditions.h */,
+				27ECC1C8D1A90B66BD6C97740E71653B /* NSURL+SAPIURLAdditions.h */,
+				5EB0F177EF353B3DD9A258FBD8007AF3 /* paddle_api.h */,
+				9391A7CD6809BFD8CF01E0F5BE4AB4CC /* paddle_image_preprocess.h */,
+				113F94FECAD82F255DC00237AB26AE4E /* paddle_lite_factory_helper.h */,
+				7A77EBB4EA835099316BAB288AD78677 /* paddle_lite_image_preprocess.h */,
+				61E58AA0D5155DAB4440F73B1DDE0DC5 /* paddle_place.h */,
+				E2A2CE6998636604459EC2837F4E8010 /* paddle_use_kernels.h */,
+				5371D6BA2AF3A7506082E17948F62CDB /* paddle_use_ops.h */,
+				6E837D2FD62C91BA5D22B81AA40CDAFF /* paddle_use_passes.h */,
+				BF2F7EE83B76CE953C65A73DC3A1A323 /* PASSAccountCenterViewController.h */,
+				D0ECADEB2536C657C5F15F8FD8FB0182 /* PASSAccountDestroyViewController.h */,
+				7B5F5CD961C5D6B32FBAFF0F4BD89747 /* PASSAccountDetectViewController.h */,
+				E00A29A1D7774ECB11D2E96B4BE25473 /* PASSAccountRealNameViewController.h */,
+				AA25BE894B49BF056A0782F82426B67E /* PASSAccountRecordViewController.h */,
+				7B451441078F399EDC9F808C2EAB280E /* PASSAccountSecurityCenterViewController.h */,
+				CAE51E299ABC9140C5087D6DF7D9297B /* PASSAccountSwitchViewController.h */,
+				F068F7AA1E1833336955E79EA43BDF73 /* PASSAccountWebViewController.h */,
+				6D348DECF7605032DF6C60C71426817E /* PASSBaseViewController.h */,
+				519516BCB7425BF68DE54DBB74BA904B /* PASSBindWidgetViewController.h */,
+				6CB8519A0DC7FC4E08E40EFE1C14BB4E /* PASSBiometricsFaceKit.h */,
+				3E93692FBE427E181A8475CF83965BA2 /* PASSBioSDKMainManager.h */,
+				589B6A4FC53895CDF043F2EBA03C130F /* PASSCertInfo.h */,
+				4B2922FD5CDEA18794C19D90C560F9F0 /* PASSControllerFactory.h */,
+				F0423DD6F40EE5CC46C65B5F81426037 /* PASSDesignMacro.h */,
+				BBAA178BDBA3CDCDF16B9443CB3701C7 /* PassEnhancedKit.h */,
+				F279ACBCBE1AB7DDFD3B474784D0BC03 /* PASSError.h */,
+				CD02145453929EC5B77D5E225B4A59E7 /* PASSFaceIDService.h */,
+				0A00C32D592DDC5C9FDB7288958FC427 /* PASSFastLoginDefine.h */,
+				398AE07369FBD143CCBA1E4E63947B85 /* PASSFastLoginKit.h */,
+				0A8CF3AD63E083B0D93C9C0C148ABC5D /* PASSFastLoginViewController.h */,
+				D761E2EC3A8DD212C29781BB2A749D8A /* PassFoundationKit.h */,
+				805C725DE5709931DAE809400902AD30 /* PASSFusionUserInfo.h */,
+				60E8C60738769C7D0C9552AF2DC793F2 /* PASSGuestNormalizeViewController.h */,
+				DD1340887BEE2365BA85F35FD904EB5F /* PASSLoginConfig.h */,
+				D381108F3AEF8EFBDF0BC66BF0D9D9DD /* PASSLoginInputView.h */,
+				FA777EF4437B0CF564AB98B1F3E7E4E7 /* PASSLoginViewController.h */,
+				B3BA9594B8C36D7A8FCABFFC3DC7CC50 /* PASSMethodCallTransfer.h */,
+				FA24B87DC13A7B669464B7CF10B497FF /* PASSModifyPasswordViewController.h */,
+				F8EA2F202A642FEC20F280A84F1C9C6A /* PASSOneKeyCheckResult.h */,
+				5D3FEFA4B636DD1A2DBE948594A8D309 /* PASSOneKeySDKManager.h */,
+				427F52B842F0B6C20863C24FAD2D2522 /* PASSOpenBdussModel.h */,
+				D8DA565545955B12064BAEB4913EC8ED /* PASSOpenURLHandler.h */,
+				BF6524E18F7DE099E4E7FE33781980B4 /* PassportKit.h */,
+				FEB81244F0BC80481A1B80105B401F26 /* PASSQRCodeLoginViewController.h */,
+				DCB23AA21B585DB6A17E49AB2FEDE1DA /* PASSRouter.h */,
+				C6C2DF2EF85AEE3CF3D2114BCD4934A8 /* PASSThirdLoginViewController.h */,
+				FE0758FB5545682BAEC3BE3A292C805F /* PASSViewControllerTerminator.h */,
+				0D725547B7E6DE95054CE5C66F91DC9E /* PASSWebView.h */,
+				5A5BC6286267FA9913B5D9D9AA3B673E /* PASSWebViewController.h */,
+				CE46B1DC4319929209FC86C0D507A08E /* photo_c.h */,
+				CC6C16A119A54DB866F0B23DCF76FE1C /* SAPIDefine.h */,
+				296F29F66E4F62BC8096964988E199B4 /* SAPIHTTPClient.h */,
+				FD6C70591A170EAD05FEF5CB5018984A /* SAPIJSONUtility.h */,
+				98497FF4C6FD5A1DF57262FCB1665471 /* SAPILogger.h */,
+				986E364D79FA35AA5177F0331BAF2FF5 /* SAPILoginModel.h */,
+				BC660125AA1CB8DA3B28F25DE8ACF303 /* SAPILoginService.h */,
+				59E96A20A0F431ABD472201D756BCC5D /* SAPILoginService+PASSEnhancedLogin.h */,
+				C819D3BB7E3AE92FBFF7C1CD0F26215E /* SAPILoginService+PASSFastLogin.h */,
+				F9842ACDA56877C6B72FE1DC38B24CBF /* SAPILoginService+PASSThirdLoginService.h */,
+				55AF52298B667A04C6FC7767AF847B58 /* SAPILogService.h */,
+				343B8B86E170688E59204F8AC4E1FBB7 /* SAPIMainManager.h */,
+				7A76730A2CFAF63C18C494A61D7894AF /* SAPIMainWebView.h */,
+				18A438DD1037D9425B141D68C3B3B299 /* SAPIOAuthInfo.h */,
+				7C4E244E4ACC4F618D0684F22609336E /* SAPIReachability.h */,
+				7C302E015CE9442B833E390AF7A715F6 /* SAPIWebView.h */,
+				7B294DF7AF206D4692B52652477D3163 /* SAPIWebView+SAPIConstantAddition.h */,
+				8451F84CA5C82EB6765F07C44334D67B /* SAuthLoginSDKLib.h */,
+				F795B859D4B18A109A2F848A1A315B8D /* SSDKLib.h */,
+				C2EDE620934B4BAB1C1AD2164DFBE516 /* SSFaceBaseLib.h */,
+				45DD3235AC959EC9C9E9E59ADAE13735 /* SSFaceDetectionManager.h */,
+				1F25F1D6F99E942D273F6FDA5574F188 /* SSFaceSDK.h */,
+				B7D9947EB30F951A7600C377368D9B98 /* SSWbaesLib.h */,
+				648F811EEF86283077D7082A050FC0ED /* tracking_c.h */,
+				31D65FA1F1E11D0416CA81D8114CCEDF /* types.h */,
+				4A50454C178122BBDBDCA275B507CB3B /* types_c.h */,
+				48DB652940E7B57D36F9FAD0B7F40ED2 /* types_c.h */,
+				210F190D2271134038406F819416C5D0 /* UIColor+PASSConvenientAddition.h */,
+				BEA283579B50320B52A47D90E840DC70 /* UIImage+PASSUtilityAddition.h */,
+				B21217417244E7CF9E4C4B1A7CBFFADA /* UINavigationController+PASSConvenient.h */,
+				E93D7D17E404C50E7CE782D4DE5CE542 /* UIViewController+PASSConvenient.h */,
+				13426C82D5C29CF80553821E1CD0D06B /* videoio_c.h */,
+				33238658C2A61284DBFCBBF2D2877A09 /* wbaeslib.h */,
+				BCD4862EEA3DF644C2A587F4E0609C62 /* WKUserContentController+SAPIH5LoginSyncAddition.h */,
+				DA71C2BF74754D05CE4232CC35DD9237 /* Frameworks */,
+				B51D5B8FB5F4A5686E9B1FEB4587AB4E /* Resources */,
+				AB0B7E0AA8E3A1FB7C2D5C7C192AB0BF /* Support Files */,
+			);
+			name = BaiduLoginSDK;
+			path = BaiduLoginSDK;
+			sourceTree = "<group>";
+		};
+		25A8800581813BDF5879BBE286B5F31D /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				F2A637ADCF2DEEA80CFE9B190009B2BB /* compose-multiplatform.xml */,
+				57C1B1523A1E90CAFA6A2588CD6FEEC5 /* Frameworks */,
+				593B962D82E1DA39608874EB1E6AA8A0 /* Pod */,
+				F0ED37F08BD4C7E3E5BB76F884BF9654 /* Support Files */,
+			);
+			name = shared;
+			path = ../../shared;
+			sourceTree = "<group>";
+		};
+		4FF498D44216610BF561F0E44C5EEF7F /* Pods-iOS11App */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C88A86169568179ED932E04682422 /* Pods-iOS11App.modulemap */,
+				ED10DDFE92006F91270CBAF950C0606C /* Pods-iOS11App-acknowledgements.markdown */,
+				4D00E28EADB72BCBDB1393C6D60F3397 /* Pods-iOS11App-acknowledgements.plist */,
+				BBDF4123AC03B2DF8234E3543C90BA3D /* Pods-iOS11App-dummy.m */,
+				3E08715BD8C1865E92768ECA582B14C8 /* Pods-iOS11App-Info.plist */,
+				A86DDB9013A24596644F6BD43B4A4D91 /* Pods-iOS11App-resources.sh */,
+				685F178AE215A2FB6B3A80E25C747DB4 /* Pods-iOS11App-umbrella.h */,
+				AC2433ED4EF6C7C8D91067B03E76E5E2 /* Pods-iOS11App.debug.xcconfig */,
+				A274E6A6CBC2D18A07155C5D475DE0BD /* Pods-iOS11App.release.xcconfig */,
+			);
+			name = "Pods-iOS11App";
+			path = "Target Support Files/Pods-iOS11App";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57C1B1523A1E90CAFA6A2588CD6FEEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56972584D959FA4CE957B37851FBA195 /* shared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58AAD176B64323B9974E5B70EC8B12DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25A8800581813BDF5879BBE286B5F31D /* shared */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		593B962D82E1DA39608874EB1E6AA8A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E5841708CFDE028330C9140CED94DDB /* shared.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0178CBB5AE23D2677E85ACA8328754D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E57D895D22B3742D6DCAAD6992AD9D /* Pods-iOS11App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0B7E0AA8E3A1FB7C2D5C7C192AB0BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96691DFBBEE3F1136AE90B84FB8CE972 /* BaiduLoginSDK.debug.xcconfig */,
+				91983509B39ADB46FE775AE21FBC5FDE /* BaiduLoginSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaiduLoginSDK";
+			sourceTree = "<group>";
+		};
+		B51D5B8FB5F4A5686E9B1FEB4587AB4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5059367560E14F117A9FD2D50134BECA /* com.baidu.idl.face.model.faceSDK.bundle */,
+				A51AA694D9CD5303CFDE1DD7F567CFCC /* idl-key.face-ios */,
+				3032EB72CB7A8A634F76607737392D5D /* PASSBiometricsFaceKit.bundle */,
+				03B8BE2607987D145A0D76D72E4A209F /* PassportKit.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				58AAD176B64323B9974E5B70EC8B12DC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE1E7E85A60BE34D3760A581BAE6CF55 /* Pods */,
+				A0178CBB5AE23D2677E85ACA8328754D /* Products */,
+				E09C01284C56707A6B5244DA101FCBD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA71C2BF74754D05CE4232CC35DD9237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1174F67391C81668D6B380DE64636C /* IDLFaceSDK.framework */,
+				26D380EA28902F5F34A9AB87E08984C1 /* libFaceBaseSSDKLib.a */,
+				6EB81C7D376D5F0CBA2444F4CF0BB610 /* liblibjpeg.a */,
+				F0599B8B8217E0258106D171080F2C98 /* liblibpng.a */,
+				4DEA3FE3825C5EE2054E70D219DD12F8 /* libmml_framework_ios.a */,
+				24491DBE05E33E506E259AF45D143685 /* libmodelcrypt.a */,
+				03930E0F6BCC8B6B95931B2B1A9969E9 /* libpaddle_api_light_bundled.a */,
+				DDBEDCF70ABE064412161097231E8434 /* libSSDKLib.a */,
+				DEDD1FEAE2C70B1A646EE9A5AC85F082 /* libwebp.a */,
+				E73CC1C20CD40E7434C7FA202EAC89E2 /* opencv2.framework */,
+				ACBDB92AA8DE7FB30755AC5E81193FD1 /* PASSBiometricsFaceKit.framework */,
+				3C5C4EF016F2823A29EA1600C696944D /* PassEnhancedKit.framework */,
+				1F5AA17E85092244ACA6A4C7BA2EC63A /* PassFastLoginKit.framework */,
+				8A392BDD9F19C9050D7C83DD7483CC4D /* PassFoundationKit.framework */,
+				986F6035A45CEE3A282BE8DA6F0193AB /* PassportKit.framework */,
+				68413B08BEF7C845AAA0002AE8AFF54A /* SAuthLoginSDKLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09C01284C56707A6B5244DA101FCBD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF498D44216610BF561F0E44C5EEF7F /* Pods-iOS11App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE1E7E85A60BE34D3760A581BAE6CF55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B7ECBE2A34D603B75466A0BD11AAD2A /* BaiduLoginSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0ED37F08BD4C7E3E5BB76F884BF9654 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7DFA4A0901A4C01BBC5377DCC6FFF4C /* shared.debug.xcconfig */,
+				11E04BFCDB4AD390093F363CE757D100 /* shared.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../iOS11App/Pods/Target Support Files/shared";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F18241E1B2BAE787D99622E4028CE415 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26FA415555CD706EA890E2C80CD376 /* Pods-iOS11App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ECE712192556523E6757311E5186E65 /* Pods-iOS11App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B92D565782E2F1E4E7718A91706FD6B /* Build configuration list for PBXNativeTarget "Pods-iOS11App" */;
+			buildPhases = (
+				F18241E1B2BAE787D99622E4028CE415 /* Headers */,
+				7C5ACA1E907E2AE782E2EFC859F34B65 /* Sources */,
+				3663E5E2C8182353ED0E6680F008C38C /* Frameworks */,
+				19A0CCE38049F8FB4845293EA3CD6358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E15355672E32C778BAF11A11B073B2 /* PBXTargetDependency */,
+				AE95484670EB6285B7B68F5033189F07 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS11App";
+			productName = Pods_iOS11App;
+			productReference = 49E57D895D22B3742D6DCAAD6992AD9D /* Pods-iOS11App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A0178CBB5AE23D2677E85ACA8328754D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5FC219365D7B9D6990CE8F00DFBF18 /* BaiduLoginSDK */,
+				6ECE712192556523E6757311E5186E65 /* Pods-iOS11App */,
+				8777C9F6889E59EFFD631D80AEE9048B /* shared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A0CCE38049F8FB4845293EA3CD6358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEA8885189D408D600647BDC228A6A20 /* [CP-User] Build shared */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build shared";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5ACA1E907E2AE782E2EFC859F34B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFBD8BACAA45387B575768F85BB6E45 /* Pods-iOS11App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E15355672E32C778BAF11A11B073B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduLoginSDK;
+			target = 0B5FC219365D7B9D6990CE8F00DFBF18 /* BaiduLoginSDK */;
+			targetProxy = 20E7BC63512534F8A61A03D8CEF1A569 /* PBXContainerItemProxy */;
+		};
+		AE95484670EB6285B7B68F5033189F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = shared;
+			target = 8777C9F6889E59EFFD631D80AEE9048B /* shared */;
+			targetProxy = CDBA02FD4DC64BDA5F4161A5CB4E85BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F0BA9A7661F95DE172E7AC467870C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A274E6A6CBC2D18A07155C5D475DE0BD /* Pods-iOS11App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS11App/Pods-iOS11App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS11App/Pods-iOS11App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B2E8A5C6835B5E11DD443A893697CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96691DFBBEE3F1136AE90B84FB8CE972 /* BaiduLoginSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67DB20F2279AAF949A8BE6C2414918D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91983509B39ADB46FE775AE21FBC5FDE /* BaiduLoginSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE4A7CC706B7545ACAC7A1C00F3F142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2433ED4EF6C7C8D91067B03E76E5E2 /* Pods-iOS11App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS11App/Pods-iOS11App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS11App/Pods-iOS11App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7B4967B71249851CABD6EC29251E481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DFA4A0901A4C01BBC5377DCC6FFF4C /* shared.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96D4527F178BD8C0DEB7EE72B9AAE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E04BFCDB4AD390093F363CE757D100 /* shared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B92D565782E2F1E4E7718A91706FD6B /* Build configuration list for PBXNativeTarget "Pods-iOS11App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE4A7CC706B7545ACAC7A1C00F3F142 /* Debug */,
+				2F0BA9A7661F95DE172E7AC467870C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8349D8E2EC974421A14EF8ABFF6AD6DC /* Build configuration list for PBXAggregateTarget "shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B4967B71249851CABD6EC29251E481 /* Debug */,
+				A96D4527F178BD8C0DEB7EE72B9AAE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FEC207CDB87749793BFD82557A18E6 /* Build configuration list for PBXAggregateTarget "BaiduLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E8A5C6835B5E11DD443A893697CA6 /* Debug */,
+				67DB20F2279AAF949A8BE6C2414918D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

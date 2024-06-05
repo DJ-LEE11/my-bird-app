@@ -1,0 +1,6 @@
+framework module PassFastLoginKit {
+  umbrella header "PASSFastLoginKit.h"
+
+  export *
+  module * { export * }
+}

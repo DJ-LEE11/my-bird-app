@@ -1,0 +1,12 @@
+/* 
+  PassportKit.strings
+  PassportKit
+
+  Created by Sun,Chao(PPSD) on 2020/7/6.
+  Copyright © 2020 Baidu Passport. All rights reserved.
+*/
+
+"twitterLoginTitle" = "Twitter帐号登录";
+"disconnectNetworkMsg" = "网络不给力，请稍后重试";
+"reload" = "重新加载";
+"back" = "返回";

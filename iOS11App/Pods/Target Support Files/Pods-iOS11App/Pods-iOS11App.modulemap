@@ -1,0 +1,6 @@
+framework module Pods_iOS11App {
+  umbrella header "Pods-iOS11App-umbrella.h"
+
+  export *
+  module * { export * }
+}

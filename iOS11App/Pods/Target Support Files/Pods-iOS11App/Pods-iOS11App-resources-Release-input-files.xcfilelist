@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-iOS11App/Pods-iOS11App-resources.sh
+${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/com.baidu.idl.face.model.faceSDK.bundle
+${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit/PASSBiometricsFaceKit.framework/PASSBiometricsFaceKit.bundle
+${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/PassportKit.framework/PassportKit.bundle
+${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK/idl-key.face-ios
+${PODS_ROOT}/../../shared/src/commonMain/resources/compose-multiplatform.xml

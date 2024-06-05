@@ -1,0 +1,6 @@
+framework module PassEnhancedKit {
+  umbrella header "PassEnhancedKit.h"
+
+  export *
+  module * { export * }
+}

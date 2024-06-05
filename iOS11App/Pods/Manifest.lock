@@ -1,0 +1,23 @@
+PODS:
+  - BaiduLoginSDK (0.4.1)
+  - shared (1.0.0)
+
+DEPENDENCIES:
+  - BaiduLoginSDK (= 0.4.1)
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  https://git.yy.com/opensource/ios_team/Spec.git:
+    - BaiduLoginSDK
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  BaiduLoginSDK: 3b349406a153ed84d7d9bfe47712e59cd96ffe92
+  shared: 012d9212381fa85946ccfcf32536927e7dddad2a
+
+PODFILE CHECKSUM: 8e7617f03389d0569f8aa3881f31aa8dd2efe93a
+
+COCOAPODS: 1.12.1

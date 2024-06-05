@@ -1,0 +1,16 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/BaiduLoginSDK
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/IDLFaceSDK" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/PASSBiometricsFaceKit" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/PassFastLoginKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BaiduLoginSDK" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/MMLNative" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/PaddleLite" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/SFaceBaseSDK" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/jpeg" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/libwebp" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/modelcrypt" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/Dependencies/png" "${PODS_ROOT}/BaiduLoginSDK/BaiduLoginSDK/PassportKit/BiometricsKit/ssdk"
+OTHER_LDFLAGS = $(inherited) -l"FaceBaseSSDKLib" -l"SSDKLib" -l"libjpeg" -l"libpng" -l"mml_framework_ios" -l"modelcrypt" -l"paddle_api_light_bundled" -l"webp" -framework "CoreLocation" -framework "CoreTelephony" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/BaiduLoginSDK
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

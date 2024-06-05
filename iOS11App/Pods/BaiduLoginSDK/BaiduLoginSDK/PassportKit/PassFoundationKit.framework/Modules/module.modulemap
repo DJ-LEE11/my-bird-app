@@ -1,0 +1,6 @@
+framework module PassFoundationKit {
+  umbrella header "PassFoundationKit.h"
+
+  export *
+  module * { export * }
+}

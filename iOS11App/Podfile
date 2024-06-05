@@ -1,0 +1,13 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.yy.com/opensource/ios_team/Spec.git'
+source 'https://git.yy.com/ci_team/Specs.git'
+source 'https://git.yy.com/midwares/modular/athservicespecs-ios.git'
+source 'https://git.yy.com/opensource/ios_team/baidu-mirrors-swan-ios-specs.git'
+
+
+target 'iOS11App' do
+  use_frameworks!
+  platform :ios, '14.1'
+  pod 'shared', :path => '../shared'
+  pod 'BaiduLoginSDK', '0.4.1'
+end
